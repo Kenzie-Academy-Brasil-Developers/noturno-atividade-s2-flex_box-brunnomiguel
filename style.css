@@ -1,5 +1,5 @@
 body {
-    font-family: Sans-Serif;
+    font-family: sans-serif;
     margin: 0;
   }
   
@@ -12,6 +12,10 @@ body {
     color: white;
   }
   
+  p {
+    width: 630px;
+  }
+
   ol {
     list-style-type: upper-roman;
   }
@@ -29,14 +33,13 @@ body {
   .excited {
     color: green;
   }
-  
-.row:after {
+
+  .row {
     display: flex;
-    content: "";
+    justify-content: space-around;
   }
   
   .column {
-    float: left;
-    width: calc(50% - 20px);
     margin: 10px;
+    padding: 10px;
   }
